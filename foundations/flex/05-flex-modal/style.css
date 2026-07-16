@@ -20,7 +20,9 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
   padding: 16px;
+  gap: 16px;
 }
 
 .icon {
@@ -72,26 +74,13 @@ button.cancel {
 
 .header {
   font-weight: bold;
-  font-size: 20px;
-}
-
-.container {
-  display: flex;
-  gap: 16px;
-}
-
-.header-container {
+  font-size: 18px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
 }
 
-.info {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-.button-container {
-  display: flex;
-  gap: 8px;
+.text {
+  margin-bottom: 16px;
 }
