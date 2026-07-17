@@ -4,7 +4,6 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .header {
@@ -39,22 +38,24 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   padding: 16px;
-  flex: 0 0 200px;
-  height: 200px;
+  width: 300px;
 }
 
 .card-container {
   display: flex;
-  align-items: flex-start;
   flex-wrap: wrap;
   padding: 48px;
-  gap: 16px;
+  gap: 32px;
 }
 
 ul {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+li {
+  margin-bottom: 16px;
 }
 
 a {
